@@ -20,6 +20,7 @@ const Commandes = ({ token, onLogout }) => {
                 setError("Impossible de récupérer les commandes.");
             }
         };
+        console.log(token)
         fetchCommandes();
     }, [token]);
 
